@@ -1,0 +1,545 @@
+ 
+*, *:before, *:after 
+{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+body
+{
+  background-color: #E6E6E6;
+}
+
+.content-section
+{
+  margin: auto;
+  width: 70%;
+}
+
+#main
+{
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+#main h3
+{
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+/***************************************************
+		      Header Principal
+****************************************************/
+header div
+{
+  padding-top: 20px;
+  text-align: center;
+}
+
+header div i
+{
+  color: #0B0B61;
+  padding-top: 50px;
+}
+
+header img
+{
+  width: 45%;
+}
+
+/***************************************************
+              Footer Principal
+****************************************************/
+footer div
+{
+    text-align: center;
+}
+
+footer .col-md-6
+{
+  background-color: #610B0B;
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  height: 30px;
+  padding-top: 5px;
+}
+
+footer .col-md-12
+{
+  background-color: #424242;
+  box-shadow: 0px 4px 6px #333;
+  color:white;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+footer .col-md-12 p
+{
+  padding-top: 20px;
+}
+
+
+/***************************************************
+              Menu Navegacion
+****************************************************/
+body ul
+{
+    margin:auto;
+    width: 70%;
+}
+
+#navegador
+{
+  background-color: #0B2161;
+  box-shadow: 0px 4px 6px #333;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+}
+
+#navegador a
+{
+  color: white;
+}
+
+#navegador li.active a
+{
+  background-color: #E0ECF8;
+  color: black;
+}
+
+#navegador a:hover
+{
+  background-color: #E0ECF8;
+  color: black;
+}
+
+/***************************************************
+              Home
+****************************************************/
+
+#main p
+{
+    text-align: justify;
+}
+
+#main p,
+#main img
+{
+  padding-bottom: 20px;
+}
+
+/***************************************************
+              Servicios
+****************************************************/
+
+#textLeft
+{
+    padding-left: 35px;
+}
+
+/***************************************************
+              Slider Clientes
+****************************************************/
+
+.bxslider img
+{
+  padding: 15px 10px 15px 10px;
+}
+
+/***************************************************
+                  Dashboard
+****************************************************/
+
+.nav h4
+{
+  color: white;
+}
+
+.jumbotron
+{
+  border-radius: 6px;
+  box-shadow: 0px 4px 6px #333;
+  margin-left: 300px;
+  margin-top: 40px;
+  width: 35%;
+}
+
+@media (max-width: 768px)
+{
+  .jumbotron
+  {
+    margin: 40px 0px 40px 0px;
+    width: 100%;
+  }
+}
+
+/***************************************************
+                  Sidebar
+****************************************************/
+
+.main-sidebar
+{
+  background: #8A0808;
+  height: 100%;
+  overflow-y: auto; 
+  position: absolute;
+  width: 13%;
+  z-index: 1000px; 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar-nav 
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li 
+{
+  text-indent: 5px;
+  line-height: 40px;
+}
+
+.sidebar-brand a
+{
+  text-indent: 20px;
+}
+
+.sidebar-nav li a 
+{
+  display: block;
+  text-decoration: none;
+  color: white
+}
+
+.sidebar-nav li a:hover 
+{
+  text-decoration: none;
+  color: #000;
+  background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus 
+{
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand 
+{
+  height: 65px;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a 
+{
+    color: white;
+}
+
+.sidebar-nav > .sidebar-brand a:hover 
+{
+    color: #000;
+    background: none;
+}
+
+@media(max-width:768px) 
+{
+
+  .container.toggled 
+  {
+    padding-left: 0;
+  }
+
+  .main-sidebar 
+  {
+    width: 130px;
+  }
+
+   .main-sidebar li a 
+   {
+    font-size: 10px;
+    width: 150px;
+  }
+
+  .container.toggled #sidebar-wrapper 
+  {
+      width: 0;
+  }
+
+  #page-content-wrapper 
+  {
+    padding: 20px 0px 0px 100px;
+  }
+
+  footer span,
+  footer ul
+  {
+    padding: 20px 0px 0px 150px;
+  }
+}
+
+/***************************************************
+                  Administradores
+****************************************************/
+
+#tAdministradores
+{
+  table-layout: auto;
+}
+
+#tAdministradores,
+#tAdministradores thead tr th
+{
+  font-size: medium;
+  text-align: center;
+}
+
+#tAdministradores input
+{
+  width: 160px;
+}
+
+@media (max-width: 768px)
+{
+  #tAdministradores,
+  #tAdministradores thead tr th
+  {
+    font-size: xx-small;
+  }
+
+  #tAdministradores
+  {
+    table-layout: auto;
+  }
+
+  #tAdministradores input
+  {
+    width: 115px;
+  }
+}
+
+/***************************************************
+                  Clientes
+****************************************************/
+.logos_clientes
+{
+  padding-top: 20px;
+}
+
+.administrador_clientes img
+{
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.administrador_clientes i
+{
+  background: #FFFFFF;
+  color: red;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  top: 14px;
+}
+
+/***************************************************
+                  Galeria
+****************************************************/
+.galeria
+{
+  padding-top: 20px;
+}
+
+.administrador_galeria textarea
+{
+  height: 120px;
+  width: 100%;
+}
+
+.administrador_galeria img,
+.administrador_galeria p
+{
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.administrador_galeria i
+{
+  background-color: #FFFFFF;
+  color: red;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  top: 14px;
+}
+
+/***************************************************
+                  Login Gestor
+****************************************************/
+#bodyGestor
+{
+  background-color: #CEE3F6;
+}
+
+#navGestor
+{
+  background-color: #08298A;
+}
+
+#jumbotronGestor
+{
+  background-color: #F5F6CE;
+}
+
+/***************************************************
+                  Usuarios
+****************************************************/
+
+#tUsuarios
+{
+  table-layout: auto;
+}
+
+#tUsuarios thead tr th
+{
+  font-size: medium;
+  text-align: center;
+}
+
+#tUsuarios
+{
+  text-align: center;
+}
+
+@media (max-width: 768px)
+{
+  #tUsuarios,
+  #tUsuarios thead tr th
+  {
+    font-size: xx-small;
+  }
+
+  #tUsuarios
+  {
+    table-layout: auto;
+  }
+
+  #tUsuarios input
+  {
+    width: 115px;
+  }
+}
+
+/***************************************************
+                  Empleados
+****************************************************/
+#tEmpleados
+{
+  table-layout: auto;
+}
+
+#tEmpleados thead tr th
+{
+  font-size: small;
+  text-align: center;
+}
+
+#tEmpleados
+{
+  font-size: small;
+  text-align: center;
+}
+
+#tEmpleados input
+{
+  width: 100px;
+}
+@media (max-width: 768px)
+{
+  #tEmpleados,
+  #tEmpleados thead tr th
+  {
+    font-size: xx-small;
+  }
+
+  #tEmpleados
+  {
+    table-layout: auto;
+  }
+
+  #tEmpleados input
+  {
+    width: 90px;
+  }
+}
+
+/***************************************************
+                  Gestor_Clientes,Proveedores
+****************************************************/
+#tGestorClient,
+#tProveedores
+{
+  table-layout: auto;
+}
+
+#tGestorClient thead tr th,
+#tProveedores thead tr th
+{
+  font-size: small;
+  text-align: center;
+}
+
+#tGestorClient,
+#tProveedores
+{
+  font-size: small;
+  text-align: center;
+}
+
+#tGestorClient input,
+#tProveedores input
+{
+  width: 100px;
+}
+@media (max-width: 768px)
+{
+  #tGestorClient,
+  #tGestorClient thead tr th,
+  #tProveedores,
+  #tProveedores thead tr th
+
+  {
+    font-size: xx-small;
+  }
+
+  #tGestorClient,
+  #tProveedores
+  {
+    table-layout: auto;
+  }
+
+  #tGestorClient input,
+  #tProveedores input
+  {
+    width: 90px;
+  }
+}
+
+#tHerramientas
+{
+  table-layout: auto;
+}
